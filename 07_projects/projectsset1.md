@@ -171,3 +171,35 @@ function newGame() {
     playGame = true;
   });
 }
+
+```
+
+## Project-5 solution
+
+```javascript
+const insert = document.getElementById('insert')
+
+window.addEventListener('keydown', (e) => {
+  <div class='color'>
+    <table>
+  <tr>
+    <th>key</th>
+    <th>keycode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key === '' ? 'Space' : e.key}</td>
+    <td>${e.keycode}</td>
+    <td>${e.code}</td>
+  </tr>
+</table>
+  </div>
+})
+
+```
+
+# Project-6 solution
+
+```javascript
+
+```
